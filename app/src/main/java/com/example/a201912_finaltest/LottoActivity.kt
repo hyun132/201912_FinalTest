@@ -139,7 +139,9 @@ class LottoActivity : BaseActivity() {
             totalWinMoney +=50000
             fourthRankCount++
         }else if(correctCount==3){
-            totalWinMoney +=5000
+//            5등 당첨 => 당첨금액 += (보통 로또 재구매) => 당첨금액은 그대로, 사용금액을 5천원 줄이자.
+
+            usedMoney -=5000
             fifthRankCount++
         }else{
 //            꽝
