@@ -21,6 +21,15 @@
         android:gravity="center">
 
         <TextView
+            android:id="@+id/lottoNumTxt01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="\?"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/lottoNumTxt02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25sp"
@@ -28,6 +37,7 @@
             android:text="\?"/>
 
         <TextView
+            android:id="@+id/lottoNumTxt03"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25sp"
@@ -35,6 +45,7 @@
             android:text="\?"/>
 
         <TextView
+            android:id="@+id/lottoNumTxt04"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25sp"
@@ -42,6 +53,7 @@
             android:text="\?"/>
 
         <TextView
+            android:id="@+id/lottoNumTxt05"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25sp"
@@ -49,13 +61,7 @@
             android:text="\?"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:layout_marginLeft="15dp"
-            android:text="\?"/>
-
-        <TextView
+            android:id="@+id/lottoNumTxt06"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25sp"
@@ -122,6 +128,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/buyOneLottoBtn"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
